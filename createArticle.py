@@ -1,7 +1,6 @@
 import os
 import datetime 
 import shutil
-from PIL import Image
 
 PATH = os.path.dirname(os.path.abspath(__file__))
 
@@ -25,7 +24,7 @@ def createArticle(cat, title, author, text, filePath):
         spotHtml = spotHtml.replace("==TITLE==", title)
         spotHtml = spotHtml.replace("==HREF==", f"articles/{path}")
         spotHtml = spotHtml.replace("==DATE==", dates)
-                
+
         try:
             ext = filePath.split(".")[1]
             newFilePath = os.path.join(PATH, "images", rf"{dates}-{times}.{ext}".replace(" ",""))
