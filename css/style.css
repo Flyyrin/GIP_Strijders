@@ -54,6 +54,8 @@ a{
 
 .img-fluid{
     width: 100%;
+    max-height: 30rem;
+    object-fit: cover;
 }
 
 .text-title{
@@ -462,4 +464,8 @@ a{
         margin-top: 6em;
     }
 
+}
+
+p {
+    margin: 0;
 }
