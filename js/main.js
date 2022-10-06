@@ -1,7 +1,6 @@
 window.onload = function(){
     $(function(){
         $("#header").load("../html/header.html"); 
-        $("#footer").load("../html/footer.html"); 
         $("#spots").load("../articles.txt", function() {
             let toggle = document.querySelector("#header .toggle-button");
             let collapse = document.querySelectorAll("#header .collapse");
@@ -46,4 +45,5 @@ window.onload = function(){
             }
         });
     });
+    $("#footer").load("../html/footer.html"); 
 }
