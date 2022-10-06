@@ -1,7 +1,7 @@
 window.onload = function(){
     $(function(){
         $("#header").load("../html/header.html"); 
-        $("#spots").load("../articles.txt"); 
+        $("#footer").load("../html/footer.html"); 
         $("#spots").load("../articles.txt", function() {
             let toggle = document.querySelector("#header .toggle-button");
             let collapse = document.querySelectorAll("#header .collapse");
