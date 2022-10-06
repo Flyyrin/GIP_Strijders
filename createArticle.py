@@ -20,6 +20,13 @@ def createArticle(cat, title, author, text, filePath):
         article = article.replace("==TEXT==", nText)
         title = title.replace(" ","-")
         path = f"{dates}-{times}.html".replace(" ","")
+
+        spotHtml = '<div class="grid-item"><article class="article"><div class="card">==IMG==<div class="card-body text-center px-1"><a href="==HREF==" class="text-title display-1 text-dark">==TITLE==</a><p class="secondary-title text-secondary display-3"><span><i class="far fa-clock text-primary"></i>    ==DATE==</span></p></div></div></article></div>'
+        spotHtml = spotHtml.replace("==TITLE==", title)
+        spotHtml = spotHtml.replace("==HREF==", f"articles/{path}")
+        spotHtml = spotHtml.replace("==DATE==", dates)
+        ImageHeight = Image.open(newFilePathV).height
+        spotHtml = spotHtml.replace("==PAD==", 100/(280/ImageHeight))
         
         try:
             ext = filePath.split(".")[1]
@@ -31,13 +38,6 @@ def createArticle(cat, title, author, text, filePath):
         except:
             spotHtml = spotHtml.replace("==IMG==", "")
             article = article.replace("==IMG==", "")
-
-        spotHtml = '<div class="grid-item"><article class="article"><div class="card">==IMG==<div class="card-body text-center px-1"><a href="==HREF==" class="text-title display-1 text-dark">==TITLE==</a><p class="secondary-title text-secondary display-3"><span><i class="far fa-clock text-primary"></i>    ==DATE==</span></p></div></div></article></div>'
-        spotHtml = spotHtml.replace("==TITLE==", title)
-        spotHtml = spotHtml.replace("==HREF==", f"articles/{path}")
-        spotHtml = spotHtml.replace("==DATE==", dates)
-        ImageHeight = Image.open(newFilePathV).height
-        spotHtml = spotHtml.replace("==PAD==", 100/(280/ImageHeight))
 
         with open(os.path.join(PATH, "articles.txt"), "a") as spots:
             spots.write(spotHtml)
