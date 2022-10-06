@@ -25,9 +25,7 @@ def createArticle(cat, title, author, text, filePath):
         spotHtml = spotHtml.replace("==TITLE==", title)
         spotHtml = spotHtml.replace("==HREF==", f"articles/{path}")
         spotHtml = spotHtml.replace("==DATE==", dates)
-        ImageHeight = Image.open(newFilePathV).height
-        spotHtml = spotHtml.replace("==PAD==", 100/(280/ImageHeight))
-        
+                
         try:
             ext = filePath.split(".")[1]
             newFilePath = os.path.join(PATH, "images", rf"{dates}-{times}.{ext}".replace(" ",""))
