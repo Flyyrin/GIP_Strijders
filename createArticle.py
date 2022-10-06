@@ -17,7 +17,6 @@ def createArticle(cat, title, author, text, filePath):
         article = article.replace("==AUTHOR==", author)
         article = article.replace("==DATE==", dates)
         article = article.replace("==TEXT==", nText)
-        title = title.replace(" ","-")
         path = f"{dates}-{times}.html".replace(" ","")
 
         spotHtml = '<div class="grid-item"><article class="article"><div class="card">==IMG==<div class="card-body text-center px-1"><a href="==HREF==" class="text-title display-1 text-dark">==TITLE==</a><p class="secondary-title text-secondary display-3"><span><i class="far fa-clock text-primary"></i>    ==DATE==</span></p></div></div></article></div>'
