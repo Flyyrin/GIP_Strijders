@@ -309,12 +309,12 @@ article.home{
 	margin: 10px;
 	margin-left: 0px;
 	padding: 10px;
-	color: rgba(255, 255, 255, 0.849);
+	color: rgba(0, 0, 0, 0.849);
 	background-color: rgba(0, 0, 0, 0.358);
 	}
 
 h4.artikel {
-    font-size:0.9em;
+    font-size:1.2em;
     margin-top: 30px;
     margin-left:20px;
     font-weight: normal;
@@ -329,13 +329,15 @@ h2.tussentitel {
 aside {
 	float: right;
 	width: 20%;
-	background-color: rgba(0, 0, 0, 0.358);
-	color: rgba(255, 255, 255, 0.475);
 	padding: 20px;
-	margin-top: 20px;
+	margin-top: -20px;
 	margin-right: 10px;
 	}
 
+img.aside {
+    width:370px;
+    border:5px solid #555;
+}
 
 
 /* ----------- article main ------- */
