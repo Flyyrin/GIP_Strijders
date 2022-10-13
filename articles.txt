@@ -1,2 +1,0 @@
-<div class="grid-item"><article class="article"><div class="card"><div class="overflow-img"><a href="articles/13-10-2022-2022-10-13120033715577.html"><img src="../images/13-10-2022-2022-10-13120033715577.png" class="img-fluid" alt=""></a></div><div class="card-body text-center px-1"><a href="articles/13-10-2022-2022-10-13120033715577.html" class="text-title display-1 text-dark">Titel
-</a><p class="secondary-title text-secondary display-3"><span><i class="far fa-clock text-primary"></i>    13-10-2022</span></p></div></div></article></div>
