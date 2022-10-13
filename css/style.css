@@ -243,6 +243,7 @@ a{
 /* ----------- Main Section ---------- */
 
 #site-main{
+    min-height: 33rem;
     margin-top: 9em;
 }
 
