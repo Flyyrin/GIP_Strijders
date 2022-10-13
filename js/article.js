@@ -1,7 +1,6 @@
 window.onload = function(){
     $(function(){
-        $("#header").load("../html/header.html"); 
-        $("#spots").load("../articles.txt", function() {
+        $("#header").load("../html/header.html",function() {
         var imgs = document.images,
         len = imgs.length,
         counter = 0;

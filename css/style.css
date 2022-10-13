@@ -247,8 +247,8 @@ a{
 }
 
 #posts{
-    min-height: 19em;
-    margin-bottom: 5em;
+    min-height: 10em;
+    margin-bottom: 3em;
 }
 
 .grid{
@@ -264,7 +264,7 @@ a{
 
 /* ----------- footer ---------- */
 #footer{
-    padding-top: 4em;
+    padding-top: 0em;
 }
 
 #footer .feature-post .flex-item{
