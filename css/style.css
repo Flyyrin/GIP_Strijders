@@ -179,6 +179,7 @@ a{
 }
 
 
+
 /* section styling */
  
 /* ------- Navigation Menu ---------- */
@@ -285,6 +286,62 @@ a{
 
 
 /* ----------- .footer ---------- */
+
+/* ----------- article main ------- */
+
+article.header {
+	background-image: url("../images/Banner/checkered-flag-race-background-racing-banner-seamless-chessboard-checker-vector-219761430.jpg");
+    margin-top : -50px;
+	padding-top: 208px;
+	}
+
+article.titel {
+    font-size:1.5em;
+    text-decoration: underline;
+    text-align:left;
+    margin-left: 20px;
+    color:rgba(100, 105, 110, 0.836)
+    }
+
+article.home{
+    float: left;
+	width: 70%;
+	margin: 10px;
+	margin-left: 0px;
+	padding: 10px;
+	color: rgba(255, 255, 255, 0.849);
+	background-color: rgba(0, 0, 0, 0.358);
+	}
+
+h4.artikel {
+    font-size:0.9em;
+    margin-top: 30px;
+    margin-left:20px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    }
+
+h2.tussentitel {
+    margin-left: 20px;
+    margin-top:2rem;
+}
+
+aside {
+	float: right;
+	width: 20%;
+	background-color: rgba(0, 0, 0, 0.358);
+	color: rgba(255, 255, 255, 0.475);
+	padding: 20px;
+	margin-top: 20px;
+	margin-right: 10px;
+	}
+
+
+
+/* ----------- article main ------- */
+
+
+
 
 /* ----------- article page ------- */
 
