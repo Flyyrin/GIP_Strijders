@@ -56,15 +56,22 @@ img {vertical-align: middle;}
   animation-duration: 1.5s;
 }
 
+img.slide{
+    width:100%;
+    height:min-content;
+}
+
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
+/* On smaller screens, decrease text size  */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
+
 </style>
 </head>
 <body>
@@ -73,13 +80,13 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 2</div>
-  <img src="../images/afbeeldingen/Dammen.png" style="width:100%; height:min-content;" >
+  <img class = "slide" src="../images/afbeeldingen/Dammen.png" >
   <div class="text">Foto1</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 2</div>
-  <img src="../images/afbeeldingen/Joystick.png" style="width:100%; height:min-content;">
+  <img class = "slide" src="../images/afbeeldingen/Joystick.png" >
   <div class="text">Foto2</div>
 </div>
 
