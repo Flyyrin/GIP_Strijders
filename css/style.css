@@ -290,9 +290,9 @@ a{
 /* ----------- article main ------- */
 
 article.header {
-	background-image: url("../images/Banner/checkered-flag-race-background-racing-banner-seamless-chessboard-checker-vector-219761430.jpg");
+	background-image: url("../images/Banner/checkers.jpg");
     margin-top : -50px;
-	padding-top: 208px;
+	padding-top: 179px;
 	}
 
 article.titel {
@@ -335,7 +335,7 @@ aside {
 	}
 
 img.aside {
-    width:370px;
+    width:90%;
     border:5px solid #555;
 }
 
