@@ -15,6 +15,9 @@ body{
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 a{
@@ -267,6 +270,7 @@ a{
 /* ----------- footer ---------- */
 #footer{
     padding-top: 0em;
+    margin-top: auto;
 }
 
 #footer .feature-post .flex-item{
@@ -290,9 +294,9 @@ a{
 /* ----------- article main ------- */
 
 article.header {
-	/* background-image: url("../images/Banner/checkered-flag-race-background-racing-banner-seamless-chessboard-checker-vector-219761430.jpg"); */
+	background-image: url("../images/Banner/checkers.jpg");
     margin-top : -50px;
-	padding-top: 208px;
+	padding-top: 179px;
 	}
 
 article.titel {
@@ -300,7 +304,7 @@ article.titel {
     text-decoration: underline;
     text-align:left;
     margin-left: 20px;
-    color:rgba(100, 105, 110, 0.836)
+    color: #f15bb5;
     }
 
 article.home{
@@ -330,14 +334,15 @@ aside {
 	float: right;
 	width: 20%;
 	padding: 20px;
-	margin-top: -20px;
 	margin-right: 10px;
+    margin-top:-90px;
 	}
 
-img.aside {
-    width:370px;
-    border:5px solid #555;
-}
+@media only screen and (max-width: 900px) {
+    aside {width:100%; margin-top:0px;}
+    article.home{width:100%}
+    }
+
 
 
 /* ----------- article main ------- */

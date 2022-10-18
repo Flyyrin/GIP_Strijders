@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css" integrity="sha512-m3pAvNriL711NMlhkZHK6K4Tu2/RjtrzyjxZU8mlAbxxoDoURy27KajN1LGTLeEEPvaN12mKAgSCrYEwF9y0jA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#img_slideshow").load("../html/img_slide.html"); 
+    });
+    </script> 
 </head>
 <body>
     <div id="header"></div>
@@ -18,8 +24,8 @@
             <h1>Dambord Project</h1>
         </article>
         <aside>
-            <img class = "aside" src = "../images/afbeeldingen/Dammen.png">
-            <img class = "aside" src = "../images/afbeeldingen/Joystick.png">
+            <div id="img_slideshow"></div>
+            <img>
         </aside>
         <article class = "home">
             <h2 class = "tussentitel">Welkom op onze site.</h2>
