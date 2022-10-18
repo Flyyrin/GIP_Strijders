@@ -55,6 +55,7 @@ a{
     margin: auto;
 }
 
+
 .img-fluid{
     width: 100%;
     max-height: 30rem;
@@ -170,6 +171,13 @@ a{
     object-fit: cover;
 }
 
+.thumbnail_main{
+    width: 100%;
+    object-fit: cover;
+    padding-top: 0;
+    height: 15em;
+}
+
 .rounded{
     height: 120px;
     width: 120px;
@@ -247,8 +255,8 @@ a{
 /* ----------- Main Section ---------- */
 
 #site-main{
-    min-height: 33rem;
-    margin-top: 9em;
+    margin-top: 5rem;
+    min-height: 37rem;
 }
 
 #posts{
@@ -326,8 +334,11 @@ h4.artikel {
     }
 
 h2.tussentitel {
-    margin-left: 20px;
     margin-top:2rem;
+}
+
+p.tekst{
+    font-size:1.2em;
 }
 
 aside {
@@ -335,12 +346,27 @@ aside {
 	width: 20%;
 	padding: 20px;
 	margin-right: 10px;
-    margin-top:-90px;
+    margin-top:-200px;
+    max-height:40%;
 	}
 
+#post_main{
+    padding: 0 2em;
+    width:70%;
+    }
+
+#site-main{
+    min-height: 33rem;
+    margin-top: 9em;
+}
+#site-main-home{
+        margin-top: 5rem;
+        min-height: 37rem;
+    }
+
 @media only screen and (max-width: 900px) {
-    aside {width:100%; margin-top:0px;}
-    article.home{width:100%}
+    aside {width:100%; margin-top:0px; margin-right:0px;}
+    #post_main{width:100%}
     }
 
 
