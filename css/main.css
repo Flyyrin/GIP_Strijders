@@ -1,0 +1,10 @@
+.thumbnail{
+    padding-top: 0;
+    height: auto;
+    object-fit: cover;
+}
+
+#site-main{
+    margin-top: 5rem;
+    min-height: 37rem;
+}

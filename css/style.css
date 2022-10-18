@@ -290,7 +290,7 @@ a{
 /* ----------- article main ------- */
 
 article.header {
-	background-image: url("../images/Banner/checkered-flag-race-background-racing-banner-seamless-chessboard-checker-vector-219761430.jpg");
+	/* background-image: url("../images/Banner/checkered-flag-race-background-racing-banner-seamless-chessboard-checker-vector-219761430.jpg"); */
     margin-top : -50px;
 	padding-top: 208px;
 	}
