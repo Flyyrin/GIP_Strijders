@@ -365,8 +365,8 @@ aside {
 
 @media only screen and (max-width: 900px) {
     aside {width:100%; margin-top:0px; margin-right:0px;}
-    #post_main{width:100%}
     article.home{width:100%}
+    ul{padding-inline-start: 0px;}
     }
 
 
