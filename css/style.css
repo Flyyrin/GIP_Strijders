@@ -316,13 +316,8 @@ article.titel {
     }
 
 article.home{
-    float: left;
-	width: 70%;
-	margin: 10px;
-	margin-left: 0px;
-	padding: 10px;
-	color: rgba(0, 0, 0, 0.849);
-	background-color: rgba(0, 0, 0, 0.358);
+    float: center;
+	width: 80%;
 	}
 
 h4.artikel {
@@ -333,8 +328,12 @@ h4.artikel {
     margin-bottom: 40px;
     }
 
+h2.titel{
+    font-size:2em;
+}
+
 h2.tussentitel {
-    margin-top:2rem;
+    margin-top:1rem;
 }
 
 p.tekst{
@@ -346,7 +345,7 @@ aside {
 	width: 20%;
 	padding: 20px;
 	margin-right: 10px;
-    margin-top:-200px;
+    margin-top:-220px;
     max-height:40%;
 	}
 
