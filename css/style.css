@@ -172,10 +172,10 @@ a{
 }
 
 .thumbnail_main{
-    width: 100%;
+    width: autp;
     object-fit: cover;
     padding-top: 0;
-    height: 15em;
+    /* height: 15em; */
 }
 
 .rounded{
@@ -340,18 +340,14 @@ p.tekst{
     font-size:1.2em;
 }
 
-aside {
+.slider-container {
 	float: right;
-	width: 20%;
-	padding: 20px;
-	margin-right: 10px;
-    margin-top:-220px;
-    max-height:40%;
+	width: 40%;
 	}
 
 #post_main{
     padding: 0 2em;
-    width:70%;
+    width:60%;
     }
 
 #site-main{

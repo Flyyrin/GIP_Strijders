@@ -64,4 +64,6 @@ window.onload = function(){
 
         });
     });
+
+    let slideIndex = 0;
 }
