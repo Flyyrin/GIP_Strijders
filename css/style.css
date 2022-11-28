@@ -172,11 +172,16 @@ a{
 }
 
 .thumbnail_main{
-    width: autp;
     object-fit: cover;
+    max-width: 120%;
     padding-top: 0;
-    /* height: 15em; */
 }
+
+.thumbnail_img{
+    object-fit: cover;
+    width: 100%;
+}
+
 
 .rounded{
     height: 120px;
@@ -342,7 +347,10 @@ p.tekst{
 
 .slider-container {
 	float: right;
-	width: 40%;
+	width: 20%;
+    margin-right:15%;
+    margin-top: -5%;
+    
 	}
 
 #post_main{
