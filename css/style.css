@@ -354,6 +354,7 @@ p.tekst{
 
 #post_main{
     padding: 0 2em;
+    margin-right:5%;
     width:60%;
     }
 
@@ -364,14 +365,37 @@ p.tekst{
 #site-main-home{
         margin-top: 5rem;
         min-height: 37rem;
-    }
+}
 
-@media only screen and (max-width: 1100px) {
-    aside {width:100%; margin-top:0px; margin-right:0px;}
+@media only screen and (max-width: 1800px) {
+    #post_main{width:50%}
+    .slider-container{width:30%; margin-top: -10%;}
+}
+
+@media only screen and (max-width: 1500px) {
+    .slider-container{margin-right:300px}
+}
+
+@media only screen and (max-width: 1200px) {
     #post_main{width:100%}
     article.home{width:100%}
     ul{padding-inline-start: 0px;}
-    }
+    .slider-container{float:0; width:100%; margin: 0; margin-top: 50px;}
+}
+
+#fullpage {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-color: black;
+  }
 
 
 

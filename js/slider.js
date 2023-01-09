@@ -8,6 +8,16 @@ var pageShift = 500;
 var transitionPrefix = "circle";
 var svg = true;
 
+const imgs = document.querySelectorAll('.gallery img');
+const fullPage = document.querySelector('#fullpage');
+
+imgs.forEach(img => {
+  img.addEventListener('click', function() {
+    fullPage.style.backgroundImage = 'url(' + img.src + ')';
+    fullPage.style.display = 'block';
+  });
+});
+
 function leftSlide() {
 	if (click) {
 		if (curpage == 1) curpage = 5;
